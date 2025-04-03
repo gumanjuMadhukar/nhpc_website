@@ -1,0 +1,536 @@
+.listing-page {
+  position: relative;
+  background: #f5f2ed; }
+  .listing-page .listing-wrapper .listing-menu {
+    border-bottom: 1px solid #000;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between; }
+    .listing-page .listing-wrapper .listing-menu .filter-list ul .list-inline-item a {
+      color: #000; }
+      .listing-page .listing-wrapper .listing-menu .filter-list ul .list-inline-item a:hover {
+        color: #fff; }
+  .listing-page .listings {
+    padding-top: 18px; }
+    .listing-page .listings a {
+      color: #000; }
+    @media (max-width: 500px) {
+      .listing-page .listings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .listing-page .listings .listing-item {
+          max-width: 320px; } }
+    .listing-page .listings .listing-item {
+      background: #fff;
+      margin-bottom: 15px; }
+      .listing-page .listings .listing-item:hover .col-md-1 i {
+        transform: rotateZ(-18deg); }
+        .listing-page .listings .listing-item:hover .col-md-1 i:before {
+          content: "\f000"; }
+      .listing-page .listings .listing-item .col-md-1 {
+        text-align: center; }
+        .listing-page .listings .listing-item .col-md-1 i {
+          margin-top: 30px;
+          font-size: 18px;
+          border: 2px solid #000;
+          border-radius: 50%;
+          padding: 9px;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          cursor: pointer; }
+      .listing-page .listings .listing-item .listing-item-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%; }
+        .listing-page .listings .listing-item .listing-item-content h4 {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 1rem; }
+        .listing-page .listings .listing-item .listing-item-content .address {
+          margin-bottom: 0; }
+        .listing-page .listings .listing-item .listing-item-content p {
+          font-weight: 400; }
+  .listing-page .col-md-3 {
+    padding: 0;
+    background: #fff; }
+    .listing-page .col-md-3 .sidebar .dark-sidebar {
+      background: #000;
+      color: #fff;
+      text-transform: uppercase;
+      padding-left: 30px;
+      padding-right: 15px;
+      padding-bottom: 9px; }
+      @media (max-width: 1025px) {
+        .listing-page .col-md-3 .sidebar .dark-sidebar {
+          padding-left: 9px;
+          padding-right: 9px; } }
+      .listing-page .col-md-3 .sidebar .dark-sidebar h6 {
+        padding-top: 15px;
+        text-transform: uppercase; }
+      .listing-page .col-md-3 .sidebar .dark-sidebar .k-input .inner-k-input {
+        position: relative; }
+        .listing-page .col-md-3 .sidebar .dark-sidebar .k-input .inner-k-input label {
+          padding: 3px 0; }
+          .listing-page .col-md-3 .sidebar .dark-sidebar .k-input .inner-k-input label span:before {
+            right: 0; }
+          .listing-page .col-md-3 .sidebar .dark-sidebar .k-input .inner-k-input label span:after {
+            top: 6px;
+            right: 3px; }
+    .listing-page .col-md-3 .sidebar .extra-filters {
+      padding-left: 30px;
+      padding-right: 15px;
+      padding-top: 6px;
+      padding-bottom: 15px; }
+      @media (max-width: 1025px) {
+        .listing-page .col-md-3 .sidebar .extra-filters {
+          padding-left: 9px;
+          padding-right: 9px; } }
+      .listing-page .col-md-3 .sidebar .extra-filters .single-filter {
+        padding: 3px 0;
+        cursor: pointer;
+        position: relative;
+        border-bottom: 1px solid #000; }
+        .listing-page .col-md-3 .sidebar .extra-filters .single-filter .filter-title i {
+          right: 0;
+          position: absolute;
+          top: 3px; }
+        .listing-page .col-md-3 .sidebar .extra-filters .single-filter .filter-title.hide i:before {
+          content: "\f077"; }
+        .listing-page .col-md-3 .sidebar .extra-filters .single-filter .k-input .inner-k-input {
+          position: relative; }
+          .listing-page .col-md-3 .sidebar .extra-filters .single-filter .k-input .inner-k-input label {
+            padding: 3px 0; }
+            .listing-page .col-md-3 .sidebar .extra-filters .single-filter .k-input .inner-k-input label span {
+              font-weight: 400; }
+            .listing-page .col-md-3 .sidebar .extra-filters .single-filter .k-input .inner-k-input label span:before {
+              right: 0;
+              border: 1px solid #000; }
+            .listing-page .col-md-3 .sidebar .extra-filters .single-filter .k-input .inner-k-input label span:after {
+              top: 6px;
+              right: 3px;
+              background: #000; }
+        .listing-page .col-md-3 .sidebar .extra-filters .single-filter .hideFilter {
+          display: none; }
+  .listing-page .black-block {
+    width: 35px;
+    height: 105px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1; }
+  .listing-page .yellow-block {
+    width: 35px;
+    height: 782px;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 105px;
+    z-index: -1; }
+
+/*Veneu detail page css starts*/
+.info-piece label {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 25px; }
+.info-piece span {
+  display: block;
+  color: #fff; }
+  .info-piece span a {
+    color: #fff;
+    transition: all .3s ease; }
+    .info-piece span a:hover {
+      color: #fff;
+      transition: all .3s ease; }
+
+.slick-prev {
+  left: 25px;
+  z-index: 1000; }
+
+.slick-next {
+  right: 25px; }
+
+.venue-content .venue-head {
+  text-align: center;
+  border-top: 9px solid #fff;
+  padding-top: 32px; }
+  .venue-content .venue-head a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #0ec00c; }
+  .venue-content .venue-head h1 {
+    margin-top: 21px;
+    text-transform: uppercase; }
+  .venue-content .venue-head p {
+    font-style: italic;
+    font-size: 21px;
+    font-weight: 400; }
+.venue-content .venue-body {
+  /*.content-menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $lightGrey;
+    border-top: 1px solid $lightGrey;
+    padding: 9px 18px;
+    // 1
+    .author {
+      display: flex;
+      justify-content: flex-start;
+      i {
+        font-size: 30px;
+        margin-right: 9px;
+      }
+      .info {
+        font-size: 12px;
+        a {
+          color: $primaryColor;
+        }
+      }
+    }
+    // 2
+    .social-widgets {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 12px;
+      .shares {
+        text-align: center;
+        margin-right: 30px;
+        span {
+          display: block;
+        }
+      }
+      .social-icons {
+        font-size: 18px;
+        margin-top: 9px;
+        margin-right: 30px;
+        border-left: 1px solid $lightGrey;
+        border-right: 1px solid $lightGrey;
+        padding: 0 30px;
+        i {
+          margin-right: 12px;
+        }
+        :last-child {
+          margin-right: 0;
+        }
+      }
+      .login {
+        font-size: 18px;
+        margin-top: 9px;
+      }
+    }
+  } */ }
+  .venue-content .venue-body .main-content {
+    /*Col 5*/
+    /* Col 4 */
+    /* Newsletter*/ }
+    .venue-content .venue-body .main-content .info-block {
+      background: black;
+      padding: 36px 0;
+      font-size: 12px; }
+      .venue-content .venue-body .main-content .info-block .stars {
+        margin-bottom: 30px; }
+      .venue-content .venue-body .main-content .info-block .inner-info-block {
+        padding: 0 18px; }
+        .venue-content .venue-body .main-content .info-block .inner-info-block .info-piece label {
+          display: block;
+          color: #fff;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          line-height: 25px; }
+        .venue-content .venue-body .main-content .info-block .inner-info-block .info-piece span {
+          display: block;
+          color: #fff; }
+          .venue-content .venue-body .main-content .info-block .inner-info-block .info-piece span a {
+            color: #fff;
+            transition: all .3s ease; }
+            .venue-content .venue-body .main-content .info-block .inner-info-block .info-piece span a:hover {
+              color: #fff;
+              transition: all .3s ease; }
+      .venue-content .venue-body .main-content .info-block .separator {
+        padding: 20px 0; }
+        .venue-content .venue-body .main-content .info-block .separator:before {
+          content: "";
+          display: block;
+          width: 36px;
+          height: 1px;
+          background: #fff; }
+      .venue-content .venue-body .main-content .info-block .empty-section {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 25px 0;
+        margin-top: 20px; }
+    .venue-content .venue-body .main-content .inner-info-block-2 {
+      padding: 18px; }
+      .venue-content .venue-body .main-content .inner-info-block-2 .open-now {
+        color: #fff;
+        margin-bottom: 20px; }
+        .venue-content .venue-body .main-content .inner-info-block-2 .open-now i {
+          font-size: 18px; }
+        .venue-content .venue-body .main-content .inner-info-block-2 .open-now a {
+          font-style: italic;
+          color: #fff;
+          transition: all .3s ease; }
+          .venue-content .venue-body .main-content .inner-info-block-2 .open-now a:hover {
+            color: #fff;
+            transition: all .3s ease; }
+      .venue-content .venue-body .main-content .inner-info-block-2 .opening-hours {
+        position: relative;
+        color: #fff;
+        cursor: pointer; }
+        .venue-content .venue-body .main-content .inner-info-block-2 .opening-hours span {
+          text-transform: uppercase; }
+        .venue-content .venue-body .main-content .inner-info-block-2 .opening-hours i {
+          position: absolute;
+          right: 0;
+          top: 3px; }
+      .venue-content .venue-body .main-content .inner-info-block-2 .hours {
+        display: flex;
+        justify-content: space-between;
+        color: #fff; }
+      .venue-content .venue-body .main-content .inner-info-block-2 .info-piece span {
+        font-style: italic; }
+    .venue-content .venue-body .main-content .review .review-bar {
+      border-bottom: 1px solid #f5f2ed;
+      padding-top: 20px; }
+      .venue-content .venue-body .main-content .review .review-bar ul li {
+        position: relative; }
+        .venue-content .venue-body .main-content .review .review-bar ul li a {
+          color: #fff;
+          padding: 0 15px;
+          transition: all .3s ease; }
+          .venue-content .venue-body .main-content .review .review-bar ul li a:hover {
+            color: #000;
+            transition: all .3s ease; }
+        .venue-content .venue-body .main-content .review .review-bar ul li:before {
+          content: "";
+          position: absolute;
+          background: #f5f2ed;
+          width: 1px;
+          height: 100%;
+          left: -8px;
+          top: -1px; }
+        .venue-content .venue-body .main-content .review .review-bar ul li:first-child:before {
+          display: none;
+          padding-left: 0; }
+    .venue-content .venue-body .main-content .review .detail {
+      margin-top: 12px;
+      font-weight: normal; }
+      .venue-content .venue-body .main-content .review .detail .booking {
+        background: #000;
+        text-align: center;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 6px 0 3px 0;
+        font-size: 12px;
+        margin-bottom: 12px; }
+        .venue-content .venue-body .main-content .review .detail .booking a {
+          color: #fff;
+          transition: all .3s ease; }
+          .venue-content .venue-body .main-content .review .detail .booking a:hover {
+            color: #fff;
+            text-decoration: underline;
+            transition: all .3s ease; }
+      .venue-content .venue-body .main-content .review .detail span {
+        font-style: italic; }
+    .venue-content .venue-body .main-content .venue-specials {
+      background: #000;
+      color: #fff;
+      padding: 20px; }
+      .venue-content .venue-body .main-content .venue-specials .specials-title {
+        display: flex;
+        justify-content: space-between; }
+        .venue-content .venue-body .main-content .venue-specials .specials-title h4 {
+          width: 250px;
+          text-transform: uppercase;
+          font-size: 22px; }
+        .venue-content .venue-body .main-content .venue-specials .specials-title a {
+          color: #fff;
+          margin-top: 15px; }
+      .venue-content .venue-body .main-content .venue-specials .image-change {
+        background: url("../img/pubs.png") no-repeat;
+        padding-bottom: 60%;
+        background-size: contain; }
+      .venue-content .venue-body .main-content .venue-specials .image-change-2 {
+        background: url("../img/restaurants.png") no-repeat;
+        padding-bottom: 60%;
+        background-size: contain; }
+      .venue-content .venue-body .main-content .venue-specials .special-items {
+        list-style: none;
+        padding: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 12px; }
+        .venue-content .venue-body .main-content .venue-specials .special-items li {
+          margin-bottom: 3px; }
+          .venue-content .venue-body .main-content .venue-specials .special-items li a {
+            color: #fff;
+            transition: all .3s ease; }
+            .venue-content .venue-body .main-content .venue-specials .special-items li a:hover {
+              color: #fff;
+              transition: all .3s ease; }
+            .venue-content .venue-body .main-content .venue-specials .special-items li a i {
+              color: #fff; }
+    .venue-content .venue-body .main-content .newsletter {
+      background: #fff;
+      padding: 30px 20px; }
+      .venue-content .venue-body .main-content .newsletter a {
+        color: #000; }
+
+.content-menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f2ed;
+  border-top: 1px solid #f5f2ed;
+  padding: 9px 18px; }
+  .content-menu .author {
+    display: flex;
+    justify-content: flex-start; }
+    .content-menu .author i {
+      font-size: 30px;
+      margin-right: 9px; }
+    .content-menu .author .info {
+      font-size: 12px; }
+      .content-menu .author .info a {
+        color: #fff; }
+  .content-menu .social-widgets {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px; }
+    .content-menu .social-widgets .shares {
+      text-align: center;
+      margin-right: 30px; }
+      .content-menu .social-widgets .shares span {
+        display: block; }
+    .content-menu .social-widgets .social-icons {
+      font-size: 18px;
+      margin-top: 9px;
+      margin-right: 30px;
+      border-left: 1px solid #f5f2ed;
+      border-right: 1px solid #f5f2ed;
+      padding: 0 30px; }
+      .content-menu .social-widgets .social-icons i {
+        margin-right: 12px; }
+      .content-menu .social-widgets .social-icons :last-child {
+        margin-right: 0; }
+    .content-menu .social-widgets .login {
+      font-size: 18px;
+      margin-top: 9px; }
+
+.review.commenting-section .content-menu .author .hiddenComments {
+  cursor: pointer;
+  color: #000; }
+  .review.commenting-section .content-menu .author .hiddenComments span {
+    border-bottom: 1px solid #f5f2ed;
+    text-transform: uppercase; }
+.review .comments-block {
+  display: none;
+  background: #000; }
+  .review .comments-block .comments {
+    padding: 35px 20px; }
+    .review .comments-block .comments h5 {
+      color: #fff;
+      font-style: italic;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 35px; }
+    .review .comments-block .comments .comments-inner {
+      padding-top: 35px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #bdbdbd;
+      display: flex;
+      justify-content: space-between; }
+      .review .comments-block .comments .comments-inner .comment-count {
+        color: #fff; }
+      .review .comments-block .comments .comments-inner .signin-comment {
+        color: #fff; }
+        .review .comments-block .comments .comments-inner .signin-comment a {
+          color: #fff;
+          text-decoration: underline; }
+          .review .comments-block .comments .comments-inner .signin-comment a:hover {
+            text-decoration: none; }
+
+.bordered-abc {
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 45px; }
+  .bordered-abc .comment-form {
+    color: #fff;
+    margin-top: 45px;
+    width: 50%; }
+    .bordered-abc .comment-form .form-detail {
+      display: inline-block;
+      width: 100%; }
+      .bordered-abc .comment-form .form-detail label {
+        float: left;
+        width: 20%; }
+      .bordered-abc .comment-form .form-detail input {
+        float: left;
+        width: 80%; }
+      .bordered-abc .comment-form .form-detail textarea {
+        float: left;
+        width: 80%; }
+    .bordered-abc .comment-form button {
+      float: right;
+      background: #fff;
+      border: none;
+      padding: 3px 12px;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold; }
+
+.showComments {
+  display: block !important; }
+
+.review .map iframe {
+  width: 100%; }
+
+.nearby-places {
+  margin-top: 45px; }
+  .nearby-places .nearby-head {
+    display: flex;
+    justify-content: space-between; }
+    .nearby-places .nearby-head h4 {
+      font-size: 20px;
+      background: #000;
+      padding-top: 18px;
+      padding-bottom: 9px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      font-size: 20px; }
+    .nearby-places .nearby-head .right-item {
+      background: #c4c4c4;
+      color: #000;
+      padding-top: 18px;
+      padding-bottom: 9px;
+      padding-left: 30px;
+      padding-right: 30px; }
+  .nearby-places .nearby-listing {
+    padding: 21px;
+    border: 1px solid #c4c4c4; }
+    .nearby-places .nearby-listing .row .col-md-4 {
+      margin-bottom: 45px; }
+      .nearby-places .nearby-listing .row .col-md-4 .nearby__single h6 {
+        margin-top: 15px;
+        text-transform: uppercase;
+        color: #000; }
+      .nearby-places .nearby-listing .row .col-md-4 .nearby__single span {
+        display: block;
+        font-weight: 400;
+        color: #000; }
+      .nearby-places .nearby-listing .row .col-md-4 .nearby__single ._tel label {
+        color: #000; }
+      .nearby-places .nearby-listing .row .col-md-4 .nearby__single ._tel span {
+        display: inline-block; }
+
+/*Veneu detail page css ends*/
+
+/*# sourceMappingURL=global2.css.map */

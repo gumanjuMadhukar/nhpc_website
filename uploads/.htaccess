@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	# Deny From All
+	# RewriteCond %{HTTP_REFERER} ^https://nhpc.gov.np/beta/uploads/experties/profile_image [NC]
+	# RewriteCond %{HTTP_REFERER} !^https://nhpc.gov.np/beta/admin [NC]
+	# RewriteRule \.(jpg|jpeg|png|pdf)$ -[F,L]
+</IfModule>

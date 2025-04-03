@@ -1,0 +1,71 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sdsffdd</name>
+	<gx:CascadingStyle kml:id="__managed_style_045A5ED92814544B1122">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19C50FEC2B14544B10FF">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_025675F9AE14544B10FF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19C50FEC2B14544B10FF</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_045A5ED92814544B1122</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08E711F869145448C94D">
+		<name>chapagaon</name>
+		<description><![CDATA[<div>police station</div>]]></description>
+		<styleUrl>#__managed_style_025675F9AE14544B10FF</styleUrl>
+		<Point>
+			<coordinates>85.324274,27.607337,1457.078010132427</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

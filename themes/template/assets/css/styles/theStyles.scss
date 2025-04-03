@@ -1,0 +1,68 @@
+// responnsive
+.notice-modal {
+	.modal-dialog {
+		.modal-body {
+			a {
+				img {
+					width: 100% !important;
+					object-fit: contain;
+					object-position: center;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 769px) {
+	.notice-modal {
+		.modal-dialog {
+			max-width: 80% !important;
+			.modal-body {
+				span {
+					a {
+						img {
+							width: 100% !important;
+							object-fit: contain;
+							object-position: center;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 80% !important;
+		margin: auto auto;
+	}
+}
+
+@media (max-width: 990px) {
+	#navbarText {
+		.navbar-nav {
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+			.nav-item {
+				&:last-child(){
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+				}
+				&:not(:nth-child(2)) {
+					padding-left: 0;
+				}
+				
+			}
+		}
+	}d
+	.custom-navbar{
+		.links-nav{
+			>.container{
+				margin: 0;
+			}
+		}
+	}
+
+}
