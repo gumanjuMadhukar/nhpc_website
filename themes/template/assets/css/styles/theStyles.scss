@@ -4,7 +4,7 @@
 		.modal-body {
 			a {
 				img {
-					width: 100% !important;
+					width: 90% !important;
 					object-fit: contain;
 					object-position: center;
 				}
@@ -12,6 +12,78 @@
 		}
 	}
 }
+
+#board-member {
+	.member {
+		.member-image {
+			width: 100%;
+			height: 280px;
+
+			img {
+				height: 100% !important;
+				width: 100% !important;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+		.member-name {
+			border-top: 1px solid #d2d2d2;
+			p,
+			span {
+				text-align: center;
+			}
+		}
+		&:hover {
+			.member-image {
+				transform: scale(1.1);
+				padding: 10px;
+				transition: all 400ms ease;
+			}
+			.member-name {
+				border-top: 1px solid #e0e0e0;
+
+				p {
+					color: #fff !important;
+					&:last-child {
+						color: red !important;
+						text-decoration: dashed;
+					}
+				}
+				span {
+					color: #bbbbbb !important;
+				}
+			}
+		}
+	}
+}
+
+.download-cont{
+	display:flex;
+	width: 100%;
+	margin-bottom:10px;
+	>a{
+		width	:30%;
+	}
+   }
+   .download-cont .d-text{
+   width:70%;
+   font-size:22px;
+   text-align:start;
+   padding:5px;   
+   background: #fff;
+   color: red;    
+   padding-left: 10px;
+   }       
+     
+   
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 80% !important;
+		margin: auto auto;
+	}
+}
+
 @media (min-width: 769px) {
 	.notice-modal {
 		.modal-dialog {
@@ -31,12 +103,6 @@
 	}
 }
 
-@media (min-width: 576px) {
-	.modal-dialog {
-		max-width: 80% !important;
-		margin: auto auto;
-	}
-}
 
 @media (max-width: 990px) {
 	#navbarText {
@@ -45,7 +111,7 @@
 			flex-direction: row;
 			justify-content: space-between;
 			.nav-item {
-				&:last-child(){
+				&:last-child() {
 					width: 100%;
 					display: flex;
 					justify-content: space-between;
@@ -53,16 +119,22 @@
 				&:not(:nth-child(2)) {
 					padding-left: 0;
 				}
-				
 			}
 		}
-	}d
-	.custom-navbar{
-		.links-nav{
-			>.container{
+	}
+	d .custom-navbar {
+		.links-nav {
+			> .container {
 				margin: 0;
 			}
 		}
 	}
+}
 
+@media (min-width: 1200px) {
+	.notice-modal {
+		.modal-dialog {
+			max-width: 50% !important;
+		}
+	}
 }

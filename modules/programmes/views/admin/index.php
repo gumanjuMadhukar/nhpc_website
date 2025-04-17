@@ -1,4 +1,4 @@
-<section class="content-header">
+<?php /* <section class="content-header">
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
@@ -13,7 +13,7 @@
         </div>
     </div>
 </section>
-
+*/?>
 <section class="content">
     <!-- Default box -->
     <div class="card">
@@ -91,7 +91,9 @@
 			buttons: [
 			'copy', 'csv', 'excel', 'pdf', 'print'
 			],
-			'ajax' : { url: "<?php  echo site_url('admin/Programmes/json'); ?>",type: 'POST' },
+			'ajax' : { 
+				url: "<?php  echo site_url('admin/Programmes/json'); ?>",type: 'POST' },
+				order: [[1, 'asc']],
 				columns: [
 					{ data: function (data, type, row, meta) {
 				        return meta.row + meta.settings._iDisplayStart + 1;

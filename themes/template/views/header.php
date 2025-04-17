@@ -30,19 +30,20 @@
           flex-direction: column;
           align-items: center;
         .english-text{
-          font-size: 28px;
-          line-height: 30px;
+          font-size: 32px;
+          line-height: 36px;
           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          font-weight: 600;
+          font-weight: 500;
           color: #e50000;
         }
         .nepali-text{
-          font-size: 40px;
+          font-size: 48px;
           color: #045a8d;
           font-weight: 700;
           margin-top: 12px;
-          line-height: 42px;
+          line-height: 45px;
           margin-top: 12px;
+          letter-spacing: 3px;
         }
         .location{
           font-size: 16px;
@@ -61,13 +62,30 @@
   <!-- <link href="main.07544d9b.css" rel="stylesheet"> -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/styles/theStyles.css?">
+  <link rel="stylesheet" type="text/css" href="../assets/css/styles/theStyles.css?v=1.40">
 <!-- <script src="news.js"></script></head> -->
 
 <body>
 
   <!-- navabr -->
   <div class="custom-navbar fixed-top">
+  <div class="nav-news-update">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+          <div class="update-block">
+            <span>Recent Updates</span>
+          </div>
+          <marquee onMouseOver="this.stop()" onMouseOut="this.start()">
+            <?php $news = featured_news()?>
+<?php foreach ($news as $value) {?>
+                <span class="blink_me ">
+                    <a href="<?php echo site_url() ?>/news/detail/<?php echo $value->id ?>"><span class="date"></span><?php echo $value->name ?></a>
+                </span>
+            <?php }?>
+          </marquee>
+        </div>
+      </div>
+    </div>
     <nav class="navs navbar navbar-expand-lg top-fixed navbar-light top-navbar">
       <div class="item-container">
         <div class="navbar-brand" >
@@ -138,7 +156,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                EXAM
+                Licensing Exam
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="http://exam.nhpc.gov.np/register" target="_blank" >New Registration</a>
@@ -288,24 +306,7 @@
 
       </blink>
     </marquee> -->
-    <div class="nav-news-update">
-      <div class="container-fluid">
-        <div class="d-flex justify-content-between">
-          <div class="update-block">
-            <span>Recent Updates</span>
-          </div>
-          <marquee onMouseOver="this.stop()" onMouseOut="this.start()">
-            <?php $news = featured_news()?>
-                <?php foreach ($news as $value) {?>
-                <span class="blink_me ">
-                    <a href="<?php echo site_url() ?>/news/detail/<?php echo $value->id ?>"><span class="date"></span><?php echo $value->name ?></a>
-                </span>
 
-            <?php }?>
-          </marquee>
-        </div>
-      </div>
-    </div>
   </div>
 <script type="text/javascript">
         var blink = document.getElementById('blink');

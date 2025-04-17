@@ -1,11 +1,75 @@
 .notice-modal .modal-dialog .modal-body a img {
-  width: 100% !important;
+  width: 90% !important;
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
 }
 
+#board-member .member .member-image {
+  width: 100%;
+  height: 280px;
+}
+#board-member .member .member-image img {
+  height: 100% !important;
+  width: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#board-member .member .member-name {
+  border-top: 1px solid #d2d2d2;
+}
+#board-member .member .member-name p,
+#board-member .member .member-name span {
+  text-align: center;
+}
+#board-member .member:hover .member-image {
+  transform: scale(1.1);
+  padding: 10px;
+  transition: all 400ms ease;
+}
+#board-member .member:hover .member-name {
+  border-top: 1px solid #e0e0e0;
+}
+#board-member .member:hover .member-name p {
+  color: #fff !important;
+}
+#board-member .member:hover .member-name p:last-child {
+  color: red !important;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+#board-member .member:hover .member-name span {
+  color: #bbbbbb !important;
+}
+
+.download-cont {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.download-cont > a {
+  width: 30%;
+}
+
+.download-cont .d-text {
+  width: 70%;
+  font-size: 22px;
+  text-align: start;
+  padding: 5px;
+  background: #fff;
+  color: red;
+  padding-left: 10px;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 80% !important;
+    margin: auto auto;
+  }
+}
 @media (min-width: 769px) {
   .notice-modal .modal-dialog {
     max-width: 80% !important;
@@ -16,12 +80,6 @@
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
-  }
-}
-@media (min-width: 576px) {
-  .modal-dialog {
-    max-width: 80% !important;
-    margin: auto auto;
   }
 }
 @media (max-width: 990px) {
@@ -40,5 +98,10 @@
   }
   d .custom-navbar .links-nav > .container {
     margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .notice-modal .modal-dialog {
+    max-width: 50% !important;
   }
 }/*# sourceMappingURL=theStyles.css.map */

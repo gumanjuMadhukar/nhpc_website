@@ -1,0 +1,128 @@
+<div class="heading">
+<div class="text-center">
+<h2>Nepal Health Professional Council Act, 2053</h2>
+
+<h3>Act No. 30 of the year 2053.11.3 (1997 A.D.)</h3>
+
+<p><strong>An Act made to make provisions regarding Health Professional Council </strong></p>
+</div>
+</div>
+
+<p><a class="btn btn-primary" href="https://nhpc.gov.np/beta/uploads/site_documents/Nepal Health Professional Council Act 2053 (1997).pdf">Nepal Health Professional Council Act 2053 (1997).pdf <span>Download</span></a></p>
+
+<div class="content">
+<div class="content-sector">
+<h5>Preamble</h5>
+
+<p>Whereas, it is expedient to establish a Health Professional Council to make more effective the health services in Nepal, to mobilize the services of health professionals except the qualified doctors and nurses to be registered with the Medical Council in a managed and scientific manner and make provisions on the registration of their names according to their qualifications;</p>
+
+<p>Be it enacted by the Parliament in the twenty fifth year of reign of His Majesty King Birendra Bir Bikram Shah Dev.</p>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Short title and commencement:</h5>
+
+<ul class="list-unstyled">
+	<li>a. This Act may be called as the &ldquo;Nepal Health Professional Council Act, 2053 (1997)&rdquo;.</li>
+	<li>b. It shall come into force in such place and on such date as the Government of Nepal may, by a notification in the Nepal Gazette, appoint.</li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Establishment of Council:</h5>
+
+<p>A Health Professional Council is hereby established for the operation of health services in a systematic manner and registration of the names of health professional according to the qualifications.</p>
+</div>
+</div>
+
+<div class="content">
+<div class="sector">
+<h5>Formation of Council:</h5>
+
+<hr />
+<hr />
+<ul class="list-unstyled">
+	<li><strong>1. The Council established pursuant to Section 3 shall consist of the members as follows:</strong></li>
+	<li>a. A person nominated by the Government of Nepal from amongst the persons who, having obtained at least bachelor degree in a subject related with health profession, have been involved in the health service for at least five years &ndash;Chairperson</li>
+	<li>b. Chairperson of Nepal Health Technician Association or a representative designated by him/her &ndash;Member</li>
+	<li>c. Chairperson of Nepal Pharmaceuticals Association or a representative designated by him/her &ndash;Member</li>
+	<li>d. Chairperson of Nepal Radiological-3 Society or a representative designated by him/her-Member</li>
+	<li>e. Three registered health professionals nominated by the Government of Nepal from the pathology, physiotherapy and public health, on recommendation of the Nepal Health Technician Association &ndash;Member</li>
+	<li>f. Four health professionals elected by the registered health professionals from amongst themselves, as prescribed -Member</li>
+	<li>g. Dean of the Institute of Medical Sciences or a representative designated by him/her-Member</li>
+	<li><strong>2. The Government of Nepal may make alteration in the members of the Council, in consultation with the Council, and by a notification published in the Nepal Gazette.</strong>
+	<hr /></li>
+	<li><strong>3. If the Council considers necessary, it may invite any native or foreign specialist in medical profession to attend, as an observer, in its meeting.</strong>
+	<hr /></li>
+	<li><strong>4. Pending the formation of the Council, the Government of Nepal may form a committee covering the areas as referred to in Section 4 for the performance of the functions required to be performed by the Council. The term of the committee so formed shall be one year in maximum.</strong></li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Council to be corporate body:</h5>
+
+<ul class="list-unstyled">
+	<li>1. The Council shall be an autonomous body corporate with perpetual succession.</li>
+	<li>2. The Council shall have a separate seal of its own for all of its activities.</li>
+	<li>3. The Council may, like an individual, acquire, use, sell and dispose of, or otherwise manage, any movable and immovable property.</li>
+	<li>4. The Council may, like an individual, sue by its name and be also sued by the same name.</li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Fund of Council:</h5>
+
+<ul class="list-unstyled">
+	<li><strong>1. The Council shall have a separate fund of its own.</strong></li>
+	<li><strong>2. The fund of the Council shall consist of the following amounts</strong></li>
+	<li>a. Amounts received from the Government of Nepal,</li>
+	<li>b. Amounts obtained as the fee for the registration of name of health professional.</li>
+	<li>c. Amounts received from any other sources.</li>
+	<li><strong>3. The operation of the fund of the Council shall be as prescribed.</strong></li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Accounts and audit:</h5>
+
+<ul class="list-unstyled">
+	<li>1. The accounts of the incomes and expenditures of the Council shall be maintained as prescribed.</li>
+	<li>2. The audit of the Council shall be performed as prescribed.</li>
+	<li>3. The Government of Nepal may, if it so desires, inspect, or cause to be inspected, the accounts of the fund of the Council at any time.</li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Term of member:</h5>
+
+<ul class="list-unstyled">
+	<li>1. The term of office of the nominated or elected members of the Council shall be three years. The members whose term of office has expired may be eligible to be re-nominated or elected.</li>
+	<li>2. If the office of any member falls vacant prior to the expiration of the term of office, another member shall be nominated or elected for the remainder of term.</li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<div class="content-sector">
+<h5>Dissolution of Council:</h5>
+
+<ul class="list-unstyled">
+	<li>1. If the Government of Nepal thinks that the Council has failed to exercise the powers conferred to it pursuant to this Act or the Rules framed under this Act or has abused powers or used excessive powers or failed to perform its duties pursuant to this Act and the Rules framed under this Act, it may dissolve the Council.</li>
+	<li>2. After the dissolution of the Council pursuant to Sub-section (1), the Government of Nepal shall take custody of the fund and other assets of the Council, and pending the formation of another council, it may itself perform all such powers as required to be performed by the Council pursuant to this Act and the Rules or cause to be exercised such functions by a committee formed by it.</li>
+	<li>3. The Government of Nepal shall form a new council pursuant to Section 3 generally within three months after the dissolution of the Council pursuant to Sub-section (1).</li>
+	<li>4. The Government of Nepal shall hand over the fund and assets held by it in its custody pursuant to Sub-section (2) to a new council after the formation of such council.</li>
+</ul>
+</div>
+</div>

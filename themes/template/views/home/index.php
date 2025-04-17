@@ -39,8 +39,8 @@
               <div class="slide-text">
                 <div class="container">
                   <div class="slide-heading" >
-                    <h1 style="font-family:'Times New Roman', Times, serif; letter-spacing:0.5rem">(NHPC)</h1>
-                     <h1 style="font-family:'Times New Roman', Times, serif; letter-spacing:0.2rem">Nepal Health Professional Council</h1>
+                    <h1 style="font-family:'Times New Roman', Times, serif; letter-spacing:0.5rem"><?php echo $v->name; ?></h1>
+                     <h1 style="font-family:'Times New Roman', Times, serif; letter-spacing:0.2rem"><?php echo $v->description; ?></h1>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@
       </div> -->
     </div>
   </section>
-  <section id="announcement">
+  <!-- <section id="announcement">
     <div class="announcement-wrapper">
       <div class="container">
         <div class="d-flex justify-content-between">
@@ -121,7 +121,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 <section id="intro">
     <div class="intro-wrapper">
       <div class="container">
@@ -129,7 +129,7 @@
           <div class="col-md-8 offset-md-2">
             <div class="heading text-center">
               <h1>Nepal Health Professional Council</h1>
-              <p>Nepal Health Professional Council (NHPC) is an autonomous body established under the Nepal Health
+              <p style=" text-align: justify; text-justify: inter-word;">Nepal Health Professional Council (NHPC) is an autonomous body established under the Nepal Health
                 Professional Council Act 2053. The aim of this council is to register all the "Health professionals"
                 other
                 than Medical doctors , Nurses , Pharmacists, and Ayurveda according to their qualification; and bring them into a legal system as
@@ -171,7 +171,7 @@
       </div>
     </div>
   </section>
-  <section id="notice">
+  <!-- <section id="notice">
     <div class="section-wrapper">
       <div class="container">
         <h4 class="text-center">Upcoming Events</h4>
@@ -197,7 +197,33 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  <?php if (!empty($events)) { ?>
+<section id="notice">
+  <div class="section-wrapper">
+    <div class="container">
+      <h4 class="text-center">Upcoming Events</h4>
+      <div class="notice-slider">
+        <?php foreach($events as $k => $v) { ?>
+          <div class="notice">
+            <div class="link">
+              <span><i class="ri-calendar-line"></i>
+                <?php if ($v->day) { ?>
+                  <?php echo $v->day; ?> <?php echo $v->month_name; ?>, <?php echo $v->year; ?>
+                <?php } else { ?>
+                  Coming Soon
+                <?php } ?>
+              </span>
+              <p><?php echo $v->description; ?></p>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+</section>
+<?php } ?>
+
   <section id="messages">
     <div class="messages-wrapper">
       <div class="d-flex justify-content-center">
@@ -266,13 +292,13 @@
               </div>
               <div class="service-heading">
                 <h6><?php echo $v->name; ?></h6>
-                <p><?php //echo $v->description; ?></p>
-                <div class="service-link">
+                <p><?php echo $v->description; ?></p>
+                <!-- <div class="service-link">
                   <a href="<?php echo site_url('degrees'); ?>">
                     Search Now
                     <i class="ri-search-2-line"></i>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
